@@ -1,1 +1,7 @@
-#include <iostream>int main () {	std::cout << "hello world!" << std::endl;	return 1;}
+#include <iostream>
+
+int main () {
+	char testStr[] = "Hello World!";
+	std::cout << testStr << std::endl;
+	return 1;
+}
