@@ -1,9 +1,8 @@
 #include <iostream>
-#include "solution_1_8.h"
+#include "solution_5_6.h"
 
 int main() {
-	char testStr1[] = "apple";
-	char testStr2[] = "plepa";
-	std::cout << isSubstring(testStr1,2,testStr2,5) << std::endl;
+	int test = 0xAA;
+	std::cout << std::hex << swapBits(test) << std::endl;
 	return 0;
 }
