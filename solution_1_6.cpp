@@ -1,3 +1,5 @@
+#include <iostream>
+
 int printImage (int* image, int len) {
 	if (!image) return 0;
 	for (int i=0;i<len;i++) {
@@ -9,7 +11,7 @@ int printImage (int* image, int len) {
 }
 
 int rotateImageCW(int* image, int len) {
-	if (!image) return 0;
+        if (!image) return 0;
 	if (len == 1) return 1;
 	int temp = 0;
 	for (int layer=0;layer<len/2;layer++) {
@@ -26,4 +28,12 @@ int rotateImageCW(int* image, int len) {
 		}
 	}
 	return 1;
+}
+
+int main() {
+	int image[9] = {1,2,3,4,5,6,7,8,9};
+	printImage(image,3);
+	rotateImageCW(image,3);
+	printImage(image,3);
+	return 0;
 }
