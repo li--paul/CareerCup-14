@@ -1,5 +1,6 @@
 #include <iostream>
 
 int main() {
-        cout << "(3+1)/3*6=8" << endl;
+        string answer = "(3+1)/3*6=8";
+        cout << answer << endl;
 }
