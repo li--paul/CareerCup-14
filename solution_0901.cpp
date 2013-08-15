@@ -29,7 +29,7 @@ int main() {
         a.push_back(0);
         a.push_back(0);
         a.push_back(0);
-        vecotr<int> b;
+        vector<int> b;
         b.push_back(1);
         b.push_back(6);
         b.push_back(8);
